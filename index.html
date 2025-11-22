@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متحفي - اكتشف كنوز المنيا الأثرية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <!-- AppBar Header -->
+    <header class="app-header">
+        <div class="appbar-content">
+            <div class="appbar-logo">
+                <img src="image/download.jpg" alt="Mathafy" class="appbar-logo-img">
+            </div>
+            <div class="appbar-title">
+                <h1 class="app-title" data-ar="متاحف محافظة المنيا" data-en="Museums of Minia Governorate">متاحف محافظة المنيا</h1>
+            </div>
+            <button class="lang-switch" onclick="toggleLanguage()">
+                <span id="lang-btn-text">English</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="bg-pattern"></div>
+    <div class="decorative-circle circle-1"></div>
+    <div class="decorative-circle circle-2"></div>
+    
+    <div class="container">
+        <section class="hero-banner">
+            <div class="logo-container">
+                <img src="image/logo.jpg" alt="Mathafy Logo" class="logo-image">
+                <p class="tagline" data-ar="رحلتك عبر الزمن تبدأ هنا" data-en="Your Journey Through Time Starts Here">رحلتك عبر الزمن تبدأ هنا</p>
+                <p class="subtitle" data-ar="اكتشف كنوز المنيا الأثرية في راحة يدك" data-en="Discover Minya's Archaeological Treasures in Your Hand">اكتشف كنوز المنيا الأثرية في راحة يدك</p>
+            </div>
+        </section>
+
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title" data-ar="استكشف التاريخ بطريقة لم تختبرها من قبل" data-en="Explore History Like Never Before">استكشف التاريخ بطريقة لم تختبرها من قبل</h2>
+                    <p class="hero-description" data-ar="انطلق في رحلة تفاعلية عبر متاحف المنيا وأماكنها الأثرية. شاهد القطع الأثرية بتقنية الواقع المعزز والنماذج ثلاثية الأبعاد واستمتع بتجربة تاريخية فريدة." data-en="Embark on an interactive journey through Minya's museums and archaeological sites. View artifacts with AR technology and 3D models for a unique historical experience.">انطلق في رحلة تفاعلية عبر متاحف المنيا وأماكنها الأثرية. شاهد القطع الأثرية بتقنية الواقع المعزز والنماذج ثلاثية الأبعاد واستمتع بتجربة تاريخية فريدة.</p>
+                    
+                    <div class="download-section">
+                        <a href="#" class="download-btn" onclick="downloadApp(); return false;">
+                            <span class="btn-text" data-ar=" حمّل التطبيق الآن" data-en=" Download Now"> حمّل التطبيق الآن </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="image/logo.jpg" alt="Logo" class="screen-logo">
+                        <div class="screen-text" data-ar="متحفي" data-en="Mat7afi">متحفي</div>
+                        <div class="screen-desc">
+                            <span data-ar="استكشف المتاحف<br>بتقنية الواقع المعزز<br>و3D التفاعلي" data-en="Explore Museums<br>with Augmented Reality<br>and Interactive 3D">استكشف المتاحف<br>بتقنية الواقع المعزز<br>و3D التفاعلي</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label" data-ar="متاحف" data-en="Museums">متاحف</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">500+</div>
+                <div class="stat-label" data-ar="قطعة أثرية" data-en="Artifacts">قطعة أثرية</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">AR</div>
+                <div class="stat-label" data-ar="تقنية متقدمة" data-en="Advanced Tech">تقنية متقدمة</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2</div>
+                <div class="stat-label" data-ar="لغات" data-en="Languages">لغات</div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <h2 class="section-title" data-ar="مميزات التطبيق" data-en="App Features">مميزات التطبيق</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🏛️</div>
+                    <h3 class="feature-title" data-ar="جميع متاحف المنيا" data-en="All Minya Museums">جميع متاحف المنيا</h3>
+                    <p class="feature-desc" data-ar="اكتشف جميع المتاحف والأماكن الأثرية في محافظة المنيا بما في ذلك متاحف جامعة المنيا في تطبيق واحد شامل" data-en="Discover all museums and archaeological sites in Minya Governorate, including Minya University museums in one comprehensive app">اكتشف جميع المتاحف والأماكن الأثرية في محافظة المنيا بما في ذلك متاحف جامعة المنيا في تطبيق واحد شامل</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title" data-ar="واقع معزز ونماذج 3D" data-en="AR & 3D Models">واقع معزز ونماذج 3D</h3>
+                    <p class="feature-desc" data-ar="شاهد القطع الأثرية بتقنية الواقع المعزز الحديثة ونماذج ثلاثية الأبعاد تفاعلية لتجربة غامرة لا تُنسى" data-en="View artifacts with modern Augmented Reality technology and interactive 3D models for an unforgettable immersive experience">شاهد القطع الأثرية بتقنية الواقع المعزز الحديثة ونماذج ثلاثية الأبعاد تفاعلية لتجربة غامرة لا تُنسى</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title" data-ar="بحث ذكي ومتقدم" data-en="Smart Search">بحث ذكي ومتقدم</h3>
+                    <p class="feature-desc" data-ar="ابحث عن القطع الأثرية باستخدام تقنية QR Code أو بكتابة اسم القطعة بسهولة تامة وسرعة فائقة" data-en="Search for artifacts using QR Code technology or by typing the artifact name with complete ease and high speed">ابحث عن القطع الأثرية باستخدام تقنية QR Code أو بكتابة اسم القطعة بسهولة تامة وسرعة فائقة</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3 class="feature-title" data-ar="دعم لغتين" data-en="Bilingual Support">دعم لغتين</h3>
+                    <p class="feature-desc" data-ar="التطبيق يدعم اللغة العربية والإنجليزية بشكل كامل لتجربة استخدام مثالية للجميع" data-en="The app fully supports Arabic and English for an optimal user experience for everyone">التطبيق يدعم اللغة العربية والإنجليزية بشكل كامل لتجربة استخدام مثالية للجميع</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p data-ar="© 2025 متحفي - جميع الحقوق محفوظة" data-en="© 2025 Mathafy - All Rights Reserved">© 2025 متحفي - جميع الحقوق محفوظة</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;" data-ar="اكتشف تاريخ المنيا العريق" data-en="Discover Minya's Rich History">اكتشف تاريخ المنيا العريق</p>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/share/1BHBvAeiMQ/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="social-link facebook" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/mat7afi?igsh=ZzFrbGluYjd2cmRp&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-link instagram" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="http://www.tiktok.com/@mat7afi" target="_blank" rel="noopener noreferrer" class="social-link tiktok" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
